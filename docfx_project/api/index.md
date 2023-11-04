@@ -1,4 +1,4 @@
-# Package Name
-Welcome to the documentation of [package-name]
+# XIV ScriptableObject Channels
+Welcome to the documentation of ScriptableObject Channels
 
-[package-description]
+This is an event-driven system that makes it easier to communicate between scenes.
