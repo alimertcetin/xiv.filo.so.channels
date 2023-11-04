@@ -1,14 +1,13 @@
 {
-  "name": "xiv.filo.unitypackagetemplate",
+  "name": "xiv.filo.so.channels",
   "version": "0.0.0",
-  "displayName": "Package Display Name",
-  "description": "Package Description.",
+  "displayName": "ScriptableObject Channels",
+  "description": "An event-driven communication architecture.",
   "unity": "",
   "unityRelease": "",
-  "documentationUrl": "",
+  "documentationUrl": "https://alimertcetin.github.io/xiv.filo.so.channels",
   "changelogUrl": "",
   "licensesUrl": "",
-  "dependencies": { },
   "keywords": [
     "XIV",
     "Unity"
@@ -16,8 +15,18 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": {
-    "name": "Ali Mert Çetin",
-    "url": "https://alimertcetin.github.io/"
-  }
+  "author": "Ali Mert Çetin (https://alimertcetin.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimertcetin/xiv.filo.so.channels.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/alimertcetin/xiv.filo.so.channels/issues"
+  },
+  "homepage": "https://github.com/alimertcetin/xiv.filo.so.channels#readme"
 }
