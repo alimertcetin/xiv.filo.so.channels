@@ -1,0 +1,14 @@
+{
+    "name": "XIV.Packages.SO.Channels",
+    "rootNamespace": "XIV.Packages.SO.Channels",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
