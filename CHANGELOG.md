@@ -1,3 +1,10 @@
+# 1.0.0 (2023-11-04)
+
+
+### Features
+
+* **package.json:** Initial Release ([621466b](https://github.com/alimertcetin/xiv.filo.so.channels/commit/621466b33d847ab130739d0d47c3872d93faae40))
+
 ## [1.0.1](https://github.com/alimertcetin/UnityPackageTemplate/compare/v1.0.0...v1.0.1) (2023-11-04)
 
 

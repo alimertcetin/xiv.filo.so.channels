@@ -1,6 +1,6 @@
 {
   "name": "xiv.filo.so.channels",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "displayName": "ScriptableObject Channels",
   "description": "An event-driven communication architecture.",
   "unity": "",
