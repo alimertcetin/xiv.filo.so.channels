@@ -3,6 +3,106 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.IntChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.IntChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.MenuPaths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.MenuPaths.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {

@@ -1,3 +1,164 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: XIV.Packages.ScriptableObjects
+  name: XIV.Packages.ScriptableObjects
+  href: api/XIV.Packages.ScriptableObjects.html
+  commentId: N:XIV.Packages.ScriptableObjects
+  fullName: XIV.Packages.ScriptableObjects
+  nameWithType: XIV.Packages.ScriptableObjects
+- uid: XIV.Packages.ScriptableObjects.Channels
+  name: XIV.Packages.ScriptableObjects.Channels
+  href: api/XIV.Packages.ScriptableObjects.Channels.html
+  commentId: N:XIV.Packages.ScriptableObjects.Channels
+  fullName: XIV.Packages.ScriptableObjects.Channels
+  nameWithType: XIV.Packages.ScriptableObjects.Channels
+- uid: XIV.Packages.ScriptableObjects.Channels.BoolChannelSO
+  name: BoolChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.BoolChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.BoolChannelSO
+  nameWithType: BoolChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.FloatChannelSO
+  name: FloatChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.FloatChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.FloatChannelSO
+  nameWithType: FloatChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.IntChannelSO
+  name: IntChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.IntChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.IntChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.IntChannelSO
+  nameWithType: IntChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.TransformChannelSO
+  name: TransformChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.TransformChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.TransformChannelSO
+  nameWithType: TransformChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO
+  name: VoidChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO
+  nameWithType: VoidChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
+  name: XIVChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
+  nameWithType: XIVChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+  name: RaiseEvent()
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_RaiseEvent
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent()
+  nameWithType: XIVChannelSO.RaiseEvent()
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent*
+  name: RaiseEvent
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_RaiseEvent_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+  nameWithType: XIVChannelSO.RaiseEvent
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
+  name: Register(Action)
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Register_System_Action_
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
+  nameWithType: XIVChannelSO.Register(Action)
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register*
+  name: Register
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Register_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register
+  nameWithType: XIVChannelSO.Register
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
+  name: Unregister(Action)
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Unregister_System_Action_
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
+  nameWithType: XIVChannelSO.Unregister(Action)
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister*
+  name: Unregister
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Unregister_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister
+  nameWithType: XIVChannelSO.Unregister
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1
+  name: XIVChannelSO<T>
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1
+  name.vb: XIVChannelSO(Of T)
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T)
+  nameWithType: XIVChannelSO<T>
+  nameWithType.vb: XIVChannelSO(Of T)
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.RaiseEvent(`0)
+  name: RaiseEvent(T)
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_RaiseEvent__0_
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.RaiseEvent(`0)
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.RaiseEvent(T)
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).RaiseEvent(T)
+  nameWithType: XIVChannelSO<T>.RaiseEvent(T)
+  nameWithType.vb: XIVChannelSO(Of T).RaiseEvent(T)
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.RaiseEvent*
+  name: RaiseEvent
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_RaiseEvent_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.RaiseEvent
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.RaiseEvent
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).RaiseEvent
+  nameWithType: XIVChannelSO<T>.RaiseEvent
+  nameWithType.vb: XIVChannelSO(Of T).RaiseEvent
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Register(System.Action{`0})
+  name: Register(Action<T>)
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Register_System_Action__0__
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Register(System.Action{`0})
+  name.vb: Register(Action(Of T))
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.Register(System.Action<T>)
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).Register(System.Action(Of T))
+  nameWithType: XIVChannelSO<T>.Register(Action<T>)
+  nameWithType.vb: XIVChannelSO(Of T).Register(Action(Of T))
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Register*
+  name: Register
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Register_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Register
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.Register
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).Register
+  nameWithType: XIVChannelSO<T>.Register
+  nameWithType.vb: XIVChannelSO(Of T).Register
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Unregister(System.Action{`0})
+  name: Unregister(Action<T>)
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Unregister_System_Action__0__
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Unregister(System.Action{`0})
+  name.vb: Unregister(Action(Of T))
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.Unregister(System.Action<T>)
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).Unregister(System.Action(Of T))
+  nameWithType: XIVChannelSO<T>.Unregister(Action<T>)
+  nameWithType.vb: XIVChannelSO(Of T).Unregister(Action(Of T))
+- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Unregister*
+  name: Unregister
+  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Unregister_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Unregister
+  isSpec: "True"
+  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>.Unregister
+  fullName.vb: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO(Of T).Unregister
+  nameWithType: XIVChannelSO<T>.Unregister
+  nameWithType.vb: XIVChannelSO(Of T).Unregister
+- uid: XIV.Packages.ScriptableObjects.MenuPaths
+  name: MenuPaths
+  href: api/XIV.Packages.ScriptableObjects.MenuPaths.html
+  commentId: T:XIV.Packages.ScriptableObjects.MenuPaths
+  fullName: XIV.Packages.ScriptableObjects.MenuPaths
+  nameWithType: MenuPaths
+- uid: XIV.Packages.ScriptableObjects.MenuPaths.CHANNEL_BASE_MENU
+  name: CHANNEL_BASE_MENU
+  href: api/XIV.Packages.ScriptableObjects.MenuPaths.html#XIV_Packages_ScriptableObjects_MenuPaths_CHANNEL_BASE_MENU
+  commentId: F:XIV.Packages.ScriptableObjects.MenuPaths.CHANNEL_BASE_MENU
+  fullName: XIV.Packages.ScriptableObjects.MenuPaths.CHANNEL_BASE_MENU
+  nameWithType: MenuPaths.CHANNEL_BASE_MENU
