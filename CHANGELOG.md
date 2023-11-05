@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/alimertcetin/xiv.filo.so.channels/compare/v1.0.0...v2.0.0) (2023-11-05)
+
+
+* feat(Cleanup)!: Docs and remove unnecessary base class. ([ab95f68](https://github.com/alimertcetin/xiv.filo.so.channels/commit/ab95f6821b5fce4ef78968e9c3a146c2489efd84))
+
+
+### BREAKING CHANGES
+
+* Removed XIVChannelSO non generic base class
+
 # 1.0.0 (2023-11-04)
 
 
