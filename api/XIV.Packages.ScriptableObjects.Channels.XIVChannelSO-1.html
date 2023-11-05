@@ -87,7 +87,7 @@
 
   <h1 id="XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1" data-uid="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1" class="text-break">
     Class XIVChannelSO&lt;T&gt;
-  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -95,7 +95,23 @@
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Base class for all channels.
+<example></example></p>
+<pre><code class="lang-csharp">public struct Foo { public int bar; }
+
+[CreateAssetMenu(menuName = "filePath" + nameof(Foo))]
+public class FooChannelSO : XIVChannelSO&lt;Foo&gt; { }
+
+public class MyClass : MonoBehaviour
+{
+    [SerializeField] FooChannelSO fooChannel;
+    Start() { fooChannel.RaiseEvent(new Foo { bar = 5 } ); }
+    OnEnable() { fooChannel.Register(OnFoo); }
+    OnDisable() { fooChannel.Unregister(OnFoo); }
+    void OnFoo(Foo f) { }
+}</code></pre>
+
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -143,7 +159,7 @@
 
   <h3 id="XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_RaiseEvent__0_" data-uid="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.RaiseEvent(`0)">
   RaiseEvent(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -174,7 +190,7 @@
 
   <h3 id="XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Register_System_Action__0__" data-uid="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Register(System.Action{`0})">
   Register(Action&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -205,7 +221,7 @@
 
   <h3 id="XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Unregister_System_Action__0__" data-uid="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1.Unregister(System.Action{`0})">
   Unregister(Action&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -236,7 +252,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/XIVChannelSO.cs/#L26" class="edit-link">Edit this page</a>
         </div>
 
 

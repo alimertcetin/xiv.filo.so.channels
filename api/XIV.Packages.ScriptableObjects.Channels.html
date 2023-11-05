@@ -94,31 +94,48 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.html">BoolChannelSO</a></dt>
-      <dd></dd>
+      <dd><p>Channel for bool values.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.html">FloatChannelSO</a></dt>
-      <dd></dd>
+      <dd><p>Channel for float values.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.IntChannelSO.html">IntChannelSO</a></dt>
-      <dd></dd>
+      <dd><p>Channel for int values.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html">TransformChannelSO</a></dt>
-      <dd></dd>
+      <dd><p>Channel for Transform values.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html">VoidChannelSO</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html">XIVChannelSO</a></dt>
-      <dd></dd>
+      <dd><p>Parameterless action channel.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html">XIVChannelSO&lt;T&gt;</a></dt>
-      <dd></dd>
+      <dd><p>Base class for all channels.
+<example></example></p>
+<pre><code class="lang-csharp">public struct Foo { public int bar; }
+
+[CreateAssetMenu(menuName = "filePath" + nameof(Foo))]
+public class FooChannelSO : XIVChannelSO&lt;Foo&gt; { }
+
+public class MyClass : MonoBehaviour
+{
+    [SerializeField] FooChannelSO fooChannel;
+    Start() { fooChannel.RaiseEvent(new Foo { bar = 5 } ); }
+    OnEnable() { fooChannel.Register(OnFoo); }
+    OnDisable() { fooChannel.Unregister(OnFoo); }
+    void OnFoo(Foo f) { }
+}</code></pre>
+
+</dd>
     </dl>
 
 
