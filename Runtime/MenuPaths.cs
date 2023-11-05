@@ -2,7 +2,9 @@
 {
     public static class MenuPaths
     {
-        // All Channels will be under this menu
+        /// <summary>
+        /// All Channels will be under this menu.
+        /// </summary>
         public const string CHANNEL_BASE_MENU = "Channels/";
     }
 }
