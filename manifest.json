@@ -64,6 +64,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.yml",
       "output": {
         ".html": {
