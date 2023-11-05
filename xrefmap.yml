@@ -43,51 +43,45 @@ references:
   commentId: T:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO
   fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO
   nameWithType: VoidChannelSO
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
-  name: XIVChannelSO
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html
-  commentId: T:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO
-  nameWithType: XIVChannelSO
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent
   name: RaiseEvent()
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_RaiseEvent
-  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent()
-  nameWithType: XIVChannelSO.RaiseEvent()
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent*
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_RaiseEvent
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent()
+  nameWithType: VoidChannelSO.RaiseEvent()
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent*
   name: RaiseEvent
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_RaiseEvent_
-  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_RaiseEvent_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent
   isSpec: "True"
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.RaiseEvent
-  nameWithType: XIVChannelSO.RaiseEvent
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.RaiseEvent
+  nameWithType: VoidChannelSO.RaiseEvent
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register(System.Action)
   name: Register(Action)
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Register_System_Action_
-  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register(System.Action)
-  nameWithType: XIVChannelSO.Register(Action)
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register*
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_Register_System_Action_
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register(System.Action)
+  nameWithType: VoidChannelSO.Register(Action)
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register*
   name: Register
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Register_
-  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_Register_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register
   isSpec: "True"
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Register
-  nameWithType: XIVChannelSO.Register
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Register
+  nameWithType: VoidChannelSO.Register
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister(System.Action)
   name: Unregister(Action)
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Unregister_System_Action_
-  commentId: M:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister(System.Action)
-  nameWithType: XIVChannelSO.Unregister(Action)
-- uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister*
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_Unregister_System_Action_
+  commentId: M:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister(System.Action)
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister(System.Action)
+  nameWithType: VoidChannelSO.Unregister(Action)
+- uid: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister*
   name: Unregister
-  href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_Unregister_
-  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister
+  href: api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html#XIV_Packages_ScriptableObjects_Channels_VoidChannelSO_Unregister_
+  commentId: Overload:XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister
   isSpec: "True"
-  fullName: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO.Unregister
-  nameWithType: XIVChannelSO.Unregister
+  fullName: XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.Unregister
+  nameWithType: VoidChannelSO.Unregister
 - uid: XIV.Packages.ScriptableObjects.Channels.XIVChannelSO`1
   name: XIVChannelSO<T>
   href: api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html
