@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/alimertcetin/xiv.filo.so.channels/compare/v2.0.0...v2.1.0) (2025-09-10)
+
+
+### Features
+
+* Add StringChannelSO ([7ab765f](https://github.com/alimertcetin/xiv.filo.so.channels/commit/7ab765f68a5ce6f55797bbbbf91794460659c690))
+
 # [2.0.0](https://github.com/alimertcetin/xiv.filo.so.channels/compare/v1.0.0...v2.0.0) (2023-11-05)
 
 
