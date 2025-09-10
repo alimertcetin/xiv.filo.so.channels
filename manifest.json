@@ -46,6 +46,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.StringChannelSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.StringChannelSO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.StringChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.StringChannelSO.yml\" sourcestartlinenumber=\"1\">Channel for string values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.yml",
       "output": {
         ".html": {

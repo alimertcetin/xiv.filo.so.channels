@@ -31,6 +31,12 @@ references:
   commentId: T:XIV.Packages.ScriptableObjects.Channels.IntChannelSO
   fullName: XIV.Packages.ScriptableObjects.Channels.IntChannelSO
   nameWithType: IntChannelSO
+- uid: XIV.Packages.ScriptableObjects.Channels.StringChannelSO
+  name: StringChannelSO
+  href: api/XIV.Packages.ScriptableObjects.Channels.StringChannelSO.html
+  commentId: T:XIV.Packages.ScriptableObjects.Channels.StringChannelSO
+  fullName: XIV.Packages.ScriptableObjects.Channels.StringChannelSO
+  nameWithType: StringChannelSO
 - uid: XIV.Packages.ScriptableObjects.Channels.TransformChannelSO
   name: TransformChannelSO
   href: api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html

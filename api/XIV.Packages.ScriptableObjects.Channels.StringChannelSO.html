@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace XIV.Packages.ScriptableObjects.Channels </title>
+      <title>Class StringChannelSO </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace XIV.Packages.ScriptableObjects.Channels ">
+      <meta name="title" content="Class StringChannelSO ">
       
-      
+      <meta name="description" content="Channel for string values.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/alimertcetin/xiv.filo.so.channels/new/main/apiSpec/new?filename=XIV_Packages_ScriptableObjects_Channels_StringChannelSO.md&amp;value=---%0Auid%3A%20XIV.Packages.ScriptableObjects.Channels.StringChannelSO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,71 +80,65 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="XIV.Packages.ScriptableObjects.Channels">
+        <article data-uid="XIV.Packages.ScriptableObjects.Channels.StringChannelSO">
 
-  <h1 id="XIV_Packages_ScriptableObjects_Channels" data-uid="XIV.Packages.ScriptableObjects.Channels" class="text-break">Namespace XIV.Packages.ScriptableObjects.Channels</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.html">BoolChannelSO</a></dt>
-      <dd><p>Channel for bool values.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.html">FloatChannelSO</a></dt>
-      <dd><p>Channel for float values.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.IntChannelSO.html">IntChannelSO</a></dt>
-      <dd><p>Channel for int values.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.StringChannelSO.html">StringChannelSO</a></dt>
-      <dd><p>Channel for string values.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html">TransformChannelSO</a></dt>
-      <dd><p>Channel for Transform values.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html">VoidChannelSO</a></dt>
-      <dd><p>Parameterless action channel.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html">XIVChannelSO&lt;T&gt;</a></dt>
-      <dd><p>Base class for all channels.
-<example></example></p>
-<pre><code class="lang-csharp">public struct Foo { public int bar; }
 
-[CreateAssetMenu(menuName = "filePath" + nameof(Foo))]
-public class FooChannelSO : XIVChannelSO&lt;Foo&gt; { }
+  <h1 id="XIV_Packages_ScriptableObjects_Channels_StringChannelSO" data-uid="XIV.Packages.ScriptableObjects.Channels.StringChannelSO" class="text-break">
+Class StringChannelSO  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/StringChannelSO.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-public class MyClass : MonoBehaviour
-{
-    [SerializeField] FooChannelSO fooChannel;
-    Start() { fooChannel.RaiseEvent(new Foo { bar = 5 } ); }
-    OnEnable() { fooChannel.Register(OnFoo); }
-    OnDisable() { fooChannel.Unregister(OnFoo); }
-    void OnFoo(Foo f) { }
-}</code></pre>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="XIV.html">XIV</a>.<a class="xref" href="XIV.Packages.html">Packages</a>.<a class="xref" href="XIV.Packages.ScriptableObjects.html">ScriptableObjects</a>.<a class="xref" href="XIV.Packages.ScriptableObjects.Channels.html">Channels</a></dd></dl>
+  
+  </div>
 
-</dd>
-    </dl>
+  <div class="markdown summary"><p>Channel for string values.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class StringChannelSO : XIVChannelSO&lt;string&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html">XIVChannelSO</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+      <div><span class="xref">StringChannelSO</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Register_System_Action__0__">XIVChannelSO&lt;string&gt;.Register(Action&lt;string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_Unregister_System_Action__0__">XIVChannelSO&lt;string&gt;.Unregister(Action&lt;string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html#XIV_Packages_ScriptableObjects_Channels_XIVChannelSO_1_RaiseEvent__0_">XIVChannelSO&lt;string&gt;.RaiseEvent(string)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
 
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/alimertcetin/xiv.filo.so.channels/blob/main/Runtime/StringChannelSO.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
