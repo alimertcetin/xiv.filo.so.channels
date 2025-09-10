@@ -10,7 +10,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.BoolChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.BoolChannelSO.yml\" sourcestartlinenumber=\"1\">Channel for bool values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -20,7 +24,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.FloatChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.FloatChannelSO.yml\" sourcestartlinenumber=\"1\">Channel for float values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -30,7 +38,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.IntChannelSO.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.IntChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.IntChannelSO.yml\" sourcestartlinenumber=\"1\">Channel for int values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -40,7 +52,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.TransformChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.TransformChannelSO.yml\" sourcestartlinenumber=\"1\">Channel for Transform values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -50,7 +66,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.VoidChannelSO",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.VoidChannelSO.yml\" sourcestartlinenumber=\"1\">Parameterless action channel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -60,7 +80,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels.XIVChannelSO<T>",
+      "Summary": "<p sourcefile=\"api/XIV.Packages.ScriptableObjects.Channels.XIVChannelSO-1.yml\" sourcestartlinenumber=\"1\">Base class for all channels.\n<example></example></p>\n<pre><code class=\"lang-csharp\">public struct Foo { public int bar; }\n\n[CreateAssetMenu(menuName = \"filePath\" + nameof(Foo))]\npublic class FooChannelSO : XIVChannelSO&lt;Foo&gt; { }\n\npublic class MyClass : MonoBehaviour\n{\n    [SerializeField] FooChannelSO fooChannel;\n    Start() { fooChannel.RaiseEvent(new Foo { bar = 5 } ); }\n    OnEnable() { fooChannel.Register(OnFoo); }\n    OnDisable() { fooChannel.Unregister(OnFoo); }\n    void OnFoo(Foo f) { }\n}</code></pre>\n\n"
     },
     {
       "type": "ManagedReference",
@@ -70,7 +94,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.Channels.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.Channels",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -80,7 +108,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.MenuPaths.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects.MenuPaths",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -90,7 +122,11 @@
           "relative_path": "api/XIV.Packages.ScriptableObjects.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Packages.ScriptableObjects",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -106,11 +142,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -129,11 +165,11 @@
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "articles/toc.html"
-        },
         ".json": {
           "relative_path": "articles/toc.json"
+        },
+        ".html": {
+          "relative_path": "articles/toc.html"
         }
       },
       "version": ""
@@ -152,11 +188,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
